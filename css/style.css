@@ -10,7 +10,7 @@ html,
 body {
   font-size: 100%;
   font-family: "PT Sans Narrow", sans-serif;
-  background: #ffffff;
+  background: #f8f3f3e0;
   margin: 0;
 }
 p,
@@ -21,7 +21,10 @@ ol li {
 }
 h1,
 h2,
-h3,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
 h4,
 h5,
 h6 {
@@ -243,7 +246,8 @@ ul.dropdown-menu.agile_short_dropdown li a {
   float: left;
 }
 .agileits_w3layouts_logo h1 a {
-  font-size: 45px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
   text-decoration: none;
   letter-spacing: 4px;
@@ -286,9 +290,13 @@ a.w3_agile_dribble:hover {
   background: #d670be;
   border-color: #ea4c89;
 }
-a.w3_agile_vimeo:hover {
-  background: #1ab7ea;
-  border-color: #1ab7ea;
+a.w3_agile_youtube:hover {
+  background: #dd0f20;
+  border-color: #dd0f20;
+}
+a.w3_agile_blogger:hover {
+  background: #b85402f6;
+  border-color: #b85402f6;
 }
 /*-- //header --*/
 /*-- banner --*/
@@ -338,7 +346,7 @@ a.w3_agile_vimeo:hover {
 }
 .w3l_lotus {
   text-align: center;
-  font-size: 1em;
+  font-size: 1.5em;
   color: #212121;
   padding: 0.5em;
   background: #fddd22;
@@ -435,7 +443,7 @@ a.w3_agile_vimeo:hover {
 
 .agileits_banner_bottom_grid_left h4 {
   margin: 2em 0 1em;
-  color: #ddd;
+  color: rgba(0, 0, 0, 0.8);
   text-transform: capitalize;
   font-size: 2em;
   font-weight: 600;
